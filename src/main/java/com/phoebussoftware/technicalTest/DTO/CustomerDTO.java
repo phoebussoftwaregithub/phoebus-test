@@ -15,14 +15,8 @@ import java.util.List;
 @Builder
 public class CustomerDTO {
   Long customerId;
-
-  @NotNull
   String foreName;
-
-  @NotNull
   String surName;
-
-  @NotNull
   Date dataOfBirth;
   List<AccountDTO> accountDTOS;
 }

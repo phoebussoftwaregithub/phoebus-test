@@ -14,7 +14,5 @@ import javax.validation.constraints.NotNull;
 public class AccountDTO {
   Long accountId;
   CustomerDTO customerDTO;
-
-  @NotNull
   Integer accountNumber;
 }
