@@ -1,6 +1,13 @@
 package com.phoebussoftware.technicalTest.repository;
 
-import com.phoebussoftware.technicalTest.model.AccountEntity;
-import org.springframework.data.repository.CrudRepository;
 
-public interface AccountRepository extends CrudRepository<AccountEntity, Integer> {}
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.phoebussoftware.technicalTest.model.AccountEntity;
+
+@Repository
+public interface AccountRepository extends CrudRepository<AccountEntity,Long> {
+	
+
+}
